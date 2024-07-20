@@ -32,7 +32,9 @@ The dataset used is the [ECG Heartbeat Categorization Dataset](https://www.kaggl
 2. **Vanilla Autoencoder**
 3. **LSTM Autoencoder**
 
-The LSTM autoencoder provided the best results, successfully defining a threshold that accurately identifies anomalies in abnormal data with minimal false positives in normal data.
+The LSTM autoencoder provided the best results, successfully defining a threshold that accurately identifies anomalies in abnormal data with minimal false positives in normal data. In the image below, you can see the reconstructed abnormal signal and the detected anomalies:
+
+![LSTM Anomaly Points](figures/lstm-anomaly-points.png)
 
 ## Next Steps
 
