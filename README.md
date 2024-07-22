@@ -1,12 +1,12 @@
-# ECG-anomaly-detection
+# 🩺 ECG Anomaly Detection
 
 This repository contains code and resources for detecting anomalies in ECG data using various machine learning models.
 
-## Dataset
+## 📊 Dataset
 
 The dataset used is the [ECG Heartbeat Categorization Dataset](https://www.kaggle.com/datasets/shayanfazeli/heartbeat/data) from Kaggle, which includes normal and abnormal heartbeat data from the PTB Diagnostic ECG Database.
 
-## Project Structure
+## 🗂️ Project Structure
 
 - **data/**: Contains the raw and processed data.
 - **notebooks/**: Jupyter notebooks for data analysis and model training.
@@ -26,18 +26,18 @@ The dataset used is the [ECG Heartbeat Categorization Dataset](https://www.kaggl
 - **README.md**: Project overview and instructions.
 - **requirements.txt**: Python dependencies required to run the project.
 
-## Created Models
+## 🏆 Created Models
 
-1. **Isolation Forest**
-2. **Vanilla Autoencoder**
-3. **LSTM Autoencoder**
+1. **Isolation Forest** 🌲
+2. **Vanilla Autoencoder** 🤖
+3. **LSTM Autoencoder** 🤖
 
 The LSTM autoencoder provided the best results, successfully defining a threshold that accurately identifies anomalies in abnormal data with minimal false positives in normal data. In the image below, you can see the reconstructed abnormal signal and the detected anomalies:
 
 ![LSTM Anomaly Points](figures/lstm-anomaly-points.png)
 
-## Next Steps
+## ⏭️ Next Steps
 
-- Fine-tune the model's hyperparameters for improved performance.
-- Calibrate the model to reduce false positives further.
-- Explore additional models and techniques for better anomaly detection.
+- 🔧 Fine-tune the model's hyperparameters for improved performance.
+- ⚙️ Calibrate the model to reduce false positives further.
+- 🧪 Explore additional models and techniques for better anomaly detection.
